@@ -8,6 +8,7 @@ class DemoToPipelineApplicationTests {
 
     @Test
     void contextLoads() {
+        System.out.println("Test");
     }
 
 }
