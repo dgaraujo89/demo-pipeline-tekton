@@ -1,0 +1,44 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: {{ .Values.name }}
+  namespace: {{ .Values.namespace }}
+  labels:
+    app: {{ .Values.name }}
+    version: {{ .Values.version }}
+spec:
+  selector:
+    matchLabels:
+      app: {{ .Values.name }}
+  {{ with .Values.strategy }}
+  strategy:
+    {{ toYaml . | nindent 4 }}
+  {{ end }}
+  template:
+    metadata:
+      labels:
+        app: {{ .Values.name }}
+        version: {{ .Values.version }}
+    spec:
+      containers:
+        - name: {{ .Values.name }}
+          image: {{ .Values.container.image }}
+          imagePullPolicy: IfNotPresent
+          ports:
+            {{- toYaml .Values.container.ports | nindent 12 }}
+          {{ with .Values.container.env }}
+          env:
+            {{- toYaml . | nindent 12 }}
+          {{ end }}
+          {{ with .Values.container.liveness }}
+          livenessProbe:
+            {{- toYaml . | nindent 12 }}
+          {{ end }}
+          {{ with .Values.container.readiness }}
+          readinessProbe:
+            {{- toYaml . | nindent 12 }}
+          {{ end }}
+          {{ with .Values.container.resources }}
+          resources:
+            {{- toYaml . | nindent 12 }}
+          {{ end }}
