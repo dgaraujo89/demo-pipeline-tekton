@@ -1,15 +1,13 @@
 name: demo-pipeline-tekton
 namespace: apps
-version: {version}
 
 strategy:
   rollingUpdate:
-    maxSurge: 25%
+    maxSurge: 50%
     maxUnavailable: 25%
   type: RollingUpdate
 
 container:
-  image: {image}
   ports:
     - protocol: TCP
       port: 8080
