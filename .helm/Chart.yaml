@@ -1,0 +1,5 @@
+apiVersion: v2
+name: demo-pipeline-tekton
+description: Demo application for pipeline tekton
+home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
+version: {version}
