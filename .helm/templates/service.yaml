@@ -8,4 +8,4 @@ spec:
     app: {{ .Values.name }}
   type: ClusterIP
   ports:
-    {{ toYaml .Values.service.ports | nindent 4 }}
+    {{- toYaml .Values.service.ports | nindent 4 }}

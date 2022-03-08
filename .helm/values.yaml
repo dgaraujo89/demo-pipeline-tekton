@@ -48,7 +48,7 @@ container:
 hpa:
   minReplicas: 1
   maxReplicas: 2
-  targetMemoryUtilization: 70
+  targetCPUUtilization: 70
 
 service:
   ports:
