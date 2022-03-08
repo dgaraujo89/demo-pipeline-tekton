@@ -1,5 +1,4 @@
 name: demo-pipeline-tekton
-namespace: apps
 version: {version}
 
 strategy:
