@@ -29,20 +29,20 @@ container:
     httpGet:
       path: /actuator/health
       port: 8080
-      schema: HTTP
+      scheme: HTTP
     initialDelaySeconds: 30
     periodSeconds: 5
-    successThreashold: 1
+    successThreshold: 1
     timeoutSeconds: 3
   readiness:
     failureThreshold: 3
     httpGet:
       path: /actuator/health
       port: 8080
-      schema: HTTP
+      scheme: HTTP
     initialDelaySeconds: 30
     periodSeconds: 5
-    successThreashold: 1
+    successThreshold: 1
     timeoutSeconds: 3
 
 hpa:

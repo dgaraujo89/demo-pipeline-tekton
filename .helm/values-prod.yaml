@@ -27,25 +27,25 @@ container:
     httpGet:
       path: /actuator/health
       port: 8080
-      schema: HTTP
+      scheme: HTTP
     initialDelaySeconds: 30
     periodSeconds: 5
-    successThreashold: 1
+    successThreshold: 1
     timeoutSeconds: 3
   readiness:
     failureThreshold: 3
     httpGet:
       path: /actuator/health
       port: 8080
-      schema: HTTP
+      scheme: HTTP
     initialDelaySeconds: 30
     periodSeconds: 5
-    successThreashold: 1
+    successThreshold: 1
     timeoutSeconds: 3
 
 hpa:
-  minReplicas: 5
-  maxReplicas: 10
+  minReplicas: 1
+  maxReplicas: 2
   targetMemoryUtilization: 70
 
 service:
