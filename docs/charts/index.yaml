@@ -2,7 +2,16 @@ apiVersion: v1
 entries:
   demo-pipeline-tekton:
   - apiVersion: v2
-    created: "2022-03-09T13:19:57.228926907Z"
+    created: "2022-03-09T13:41:38.961130071Z"
+    description: Demo application for pipeline tekton
+    digest: 092d4564b0ee09f1a65cf3ebabb2d5eb161899fcd7f686b6d97fe6128f282707
+    home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
+    name: demo-pipeline-tekton
+    urls:
+    - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v2
+    created: "2022-03-09T13:41:38.960928964Z"
     description: Demo application for pipeline tekton
     digest: 0dc54a39cb60008fd97e5656978a9c19e18456a284dd807c824196ed9fc06cf2
     home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
@@ -11,7 +20,7 @@ entries:
     - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-0.0.7-rc.tgz
     version: 0.0.7-rc
   - apiVersion: v2
-    created: "2022-03-09T13:19:57.228734777Z"
+    created: "2022-03-09T13:41:38.960757923Z"
     description: Demo application for pipeline tekton
     digest: f7c9cfd8b5d0672784b903416e6a2f92572ad4f59290dc6ef0df7cc974f559bf
     home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
@@ -20,7 +29,7 @@ entries:
     - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-0.0.7-alpha.f6d1ab8.tgz
     version: 0.0.7-alpha.f6d1ab8
   - apiVersion: v2
-    created: "2022-03-09T13:19:57.22853943Z"
+    created: "2022-03-09T13:41:38.960560583Z"
     description: Demo application for pipeline tekton
     digest: e2186b0d78ca5bbe896607dfa48908015ccbea6409b5d25c5e1e250932ee8764
     home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
@@ -29,7 +38,7 @@ entries:
     - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-0.0.7-alpha.8693a0d.tgz
     version: 0.0.7-alpha.8693a0d
   - apiVersion: v2
-    created: "2022-03-09T13:19:57.228326601Z"
+    created: "2022-03-09T13:41:38.960371779Z"
     description: Demo application for pipeline tekton
     digest: d94b1964b48c51b3c5e9bfa3fd584db7abade6e312add7874295ad36a47a37bf
     home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
@@ -38,7 +47,7 @@ entries:
     - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-0.0.7-alpha.82733ef.tgz
     version: 0.0.7-alpha.82733ef
   - apiVersion: v2
-    created: "2022-03-09T13:19:57.228111467Z"
+    created: "2022-03-09T13:41:38.960155683Z"
     description: Demo application for pipeline tekton
     digest: 02403e49bf6e93cb53085f37feed2e102aece703de2dce24a06eab1b1b17a07b
     home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
@@ -47,7 +56,7 @@ entries:
     - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-0.0.7-alpha.00b86a1.tgz
     version: 0.0.7-alpha.00b86a1
   - apiVersion: v2
-    created: "2022-03-09T13:19:57.227884552Z"
+    created: "2022-03-09T13:41:38.95989829Z"
     description: Demo application for pipeline tekton
     digest: 90c6ee98dfc6caf6d5320475714a9f175af322cb68d140587e733df041bf72f8
     home: https://diegogomesaraujo.github.io/demo-pipeline-tekton/
@@ -55,4 +64,4 @@ entries:
     urls:
     - https://diegogomesaraujo.github.io/demo-pipeline-tekton/charts/demo-pipeline-tekton-0.0.6-alpha.2e56c34.tgz
     version: 0.0.6-alpha.2e56c34
-generated: "2022-03-09T13:19:57.227541819Z"
+generated: "2022-03-09T13:41:38.958660458Z"
